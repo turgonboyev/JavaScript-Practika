@@ -1,2 +1,2 @@
 # JavaScript-Practika
-JavaScriptda qilingan ishlar joylab boriladi
+Asosiy amaliyot ustozim Samar Badriddinov ishlaridan olingan.
