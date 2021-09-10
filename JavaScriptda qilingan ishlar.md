@@ -1,2 +1,2 @@
 # JavaScript-Practika
-Asosiy amaliyot ustozim Samar Badriddinov ishlaridan olingan.
+Asosiy amaliyot ustozim Samar Badriddinov ishlaridan olingan
