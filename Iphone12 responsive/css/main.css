@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.box{
+    background-image: linear-gradient(to right, #A5F8FC, #121B65);
+    width: 75%;
+    height: 450px;
+    border-radius: 30px;
+    margin: 5% auto;
+    padding: 1rem;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 > img{
+    width: 130%;
+    margin-top: -3rem;
+}
+.sec2{
+  width: 50%;
+}
+.sec2 > h4{
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: right;
+}
+.sec2 > p{
+  color: #fff;
+  text-align: right;
+  font-family: sans-serif;
+}
+.sec2 > button{
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  border: 3px solid #fff;
+  float: right;
+  color: #fff;
+}
+.sec2 button:hover{
+  cursor: pointer;
+}
+
+/* REPONSIVE LIGI */
+
+@media screen and (max-width: 1024px){
+  .sections{
+    display: flex;
+  }
+  .sec1 > img{
+    width: 100%;
+    margin: 0;
+  }
+  .sec2{
+    width: 50%;
+  }
+
+  .sec2 > h4{
+    text-align: right;
+    font-size: 1.7rem;
+  }
+  .sec2 > p{
+    font-size: 1rem;
+  }
+  .sec2 > button{
+    padding: 1rem 1.5rem;
+  }
+  .box{
+    height: 550px;
+  }
+}
+
+/* LODER */
+.loader{
+  width: 90%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  z-index: 9999;
+  transition: all 1s ease;
+}
+
+@media screen and (max-width: 919.9px){
+  .sections{
+    display: flex;
+  }
+  .sec1 > img{
+    width: 100%;
+    margin: 0;
+  }
+  .sec2{
+    width: 50%;
+  }
+
+  .sec2 > h4{
+    text-align: right;
+    font-size: 1.7rem;
+  }
+  .sec2 > p{
+    font-size: 1rem;
+  }
+  .sec2 > button{
+    padding: 0.7rem 1rem;
+  }
+  .box{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 764.9px){
+  .sections{
+    display: inline;
+  }
+  .sec1 > img{
+    width: 90%;
+    margin: 0;
+  }
+  .sec2{
+    width: 100%;
+  }
+
+  .sec2 > h4{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .sec2 > p{
+    font-size: 1rem;
+  }
+  .sec2 > button{
+    padding: 0.7rem 1.2rem;
+    margin-right: 40%;
+  }
+  .box{
+    height: 730px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 464.9px){
+  .sections{
+    display: inline;
+  }
+  .sec1 > img{
+    width: 90%;
+    margin: 0;
+  }
+  .sec2{
+    width: 100%;
+  }
+
+  .sec2 > h4{
+    text-align: center;
+    font-size: 1rem;
+  }
+  .sec2 > p{
+    font-size: 0.65rem;
+  }
+  .sec2 > button{
+    padding: 0.1rem 0.5rem;
+    margin-right: 40%;
+  }
+  .box{
+    height: 430px;
+  }
+}
