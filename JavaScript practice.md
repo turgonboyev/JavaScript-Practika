@@ -6,3 +6,5 @@
 3.Light and Dark Mode link => https://light-and-dark-modee.netlify.app/ 
 
 4.Countdown page link => https://count-day.netlify.app/
+
+5.ERROR PAGE  link => https://page-error.netlify.app/index.html
