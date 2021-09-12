@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-width: 100vh;
+  background-image: linear-gradient(to right, #e286ae, #99334d);
+}
+.container{
+  font-family: system-ui;
+  color: #fff;
+  margin: 10% auto;
+  text-align: center;
+}
+.container > h2{
+  font-size: 10rem;
+  margin-bottom: 0;
+  background: url(../img/img3.jpg) center no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.container > p{
+  text-transform: uppercase;
+  font-size: 1.5rem !important;
+  margin-bottom: 1rem;
+}
+.container > button{
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+}
+.container > button > a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* LOADER */
+@keyframes ldio-e312m5qv5xb {
+  0% { opacity: 0 }
+  20% { opacity: 1 }
+  100% { opacity: 1 }
+}
+.loader-child div {
+  position: absolute;
+  animation: ldio-e312m5qv5xb 1.408450704225352s linear infinite;
+  box-sizing: border-box!important;
+}
+.loader-child div:nth-child(1) {
+  width: 55.88px;
+  height: 55.88px;
+  left: 43.18px;
+  top: 162.56px;
+  border-radius: 50%;
+  background: #f47e60;
+}
+.loader-child div:nth-child(2) {
+  width: 83.82000000000001px;
+  height: 83.82000000000001px;
+  left: 71.12px;
+  top: 106.68px;
+  border-radius: 0 83.82000000000001px 0 0;
+  border: 25.4px solid #f8b26a;
+  background: none;
+  animation-delay: 0.14084507042253522s;
+  border-bottom: 0;
+  border-left: 0
+}
+.loader-child div:nth-child(3) {
+  width: 139.7px;
+  height: 139.7px;
+  left: 71.12px;
+  top: 50.8px;
+  border-radius: 0 139.7px 0 0;
+  border: 25.4px solid #abbd81;
+  background: none;
+  animation-delay: 0.28169014084507044s;
+  border-bottom: 0;
+  border-left: 0
+}
+.loader {
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#df9d9d, #9198e5);
+}
+.loader-child {
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+  margin: 10% 40%;
+}
+.loader-child div { box-sizing: content-box; }
+.hide{
+  display: none;
+  transition: all 0.5s ease;
+}
